@@ -15,12 +15,6 @@
     "name": {
       "type": "string"
     },
-    "order_status": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::order-status.order-status",
-      "inversedBy": "orders"
-    },
     "user": {
       "type": "relation",
       "relation": "manyToOne",

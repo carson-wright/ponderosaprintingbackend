@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "discount_pages",
+  "info": {
+    "singularName": "discount-page",
+    "pluralName": "discount-pages",
+    "displayName": "Discount Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

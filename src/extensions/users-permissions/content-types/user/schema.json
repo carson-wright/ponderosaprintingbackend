@@ -245,12 +245,6 @@
       "relation": "manyToOne",
       "target": "api::success-manager.success-manager",
       "inversedBy": "users"
-    },
-    "orders": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::order.order",
-      "mappedBy": "user"
     }
   }
 }
